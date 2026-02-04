@@ -97,6 +97,10 @@ a:hover{ text-decoration: underline; }
   gap: 10px;
 }
 
+.brand img{
+  height: 30px;
+}
+
 .brand__name{
   font-weight: 900;
   letter-spacing: -0.02em;
