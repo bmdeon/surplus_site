@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Revaloriize</title>
+  <meta name="description" content="Descrição curta da Revalorize em uma frase." />
+
+  <!-- (Opcional) Preview quando colar no WhatsApp/LinkedIn -->
+  <!-- <meta property="og:title" content="Revalorize" /> -->
+  <!-- <meta property="og:description" content="Descrição curta aqui." /> -->
+  <!-- <meta property="og:image" content="assets/og.jpg" /> -->
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="header">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <div class="container header__inner">
+      <div class="brand">
+        <!-- Troque por <img src="assets/logo.svg" alt="Revalorize" /> se tiver logo -->
+        <span class="brand__name">Revaloriize</span>
+        <span class="brand__tag">Negócios Imobiliários</span> 
+
+      </div>
+
+      <!-- <nav class="nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="btn btn--small">Contato</a>
+      </nav> -->
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>Sua mensagem principal em uma frase curta</h1>
+          <p>
+            Um parágrafo pequeno explicando o que você faz e pra quem.
+            Sem enrolar.
+          </p>
+
+        </div>
+
+        <div class="hero__cards">
+
+            <div class="hero__card">
+                <div class="card__icon">
+                    <span class="material-symbols-outlined">gavel</span>
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">Análise técnica</h3>
+                    <p class="card__text">Critérios objetivos</p>
+                </div>
+            </div>
+
+            <div class="hero__card">
+                <div class="card__icon">
+                    <span class="material-symbols-outlined">contract_edit</span>
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">Análise técnica</h3>
+                    <p class="card__text">Critérios objetivos</p>
+                </div>
+            </div>
+
+            <div class="hero__card">
+                <div class="card__icon">
+                    <span class="material-symbols-outlined">handshake</span>
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">Confiança</h3>
+                    <p class="card__text">Critérios objetivos</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section id="servicos" class="section">
+      <div class="container">
+        <h2>Serviços</h2>
+        <p class="muted">Uma linha explicando seus serviços.</p>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Serviço 1</h3>
+            <p>Descrição curta do serviço em 1–2 linhas.</p>
+          </article>
+
+          <article class="card">
+            <h3>Serviço 2</h3>
+            <p>Descrição curta do serviço em 1–2 linhas.</p>
+          </article>
+
+          <article class="card">
+            <h3>Serviço 3</h3>
+            <p>Descrição curta do serviço em 1–2 linhas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section section--alt">
+      <div class="container">
+        <h2>Sobre</h2>
+        <p>
+        A Revalorize atua com foco em análise e orientação em situações relacionadas a imóveis vendidos em leilão.
+        Nosso trabalho é baseado em critérios objetivos, revisão documental e condução transparente.
+        Cada caso é avaliado individualmente, respeitando o contexto jurídico e administrativo.
+        </p>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2>Contato</h2>
+        <p class="muted">Escolha 1 canal principal e 1 secundário.</p>
+
+        <div class="contact">
+          <div class="card">
+            <h3>Fale com a gente</h3>
+            <p>
+              Email: <a href="mailto:contato@seudominio.com">contato@seudominio.com</a><br />
+              WhatsApp: <a href="https://wa.me/55SEUNUMERO">+55 (xx) xxxxx-xxxx</a>
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Local</h3>
+            <p>São Paulo — SP</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Revalorize. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Sem JS por enquanto: se quiser, removemos o ano dinâmico -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
